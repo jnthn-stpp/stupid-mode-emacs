@@ -1,11 +1,11 @@
 (make-variable-buffer-local
- (defvar stupid-root "~/Documents/robo/ftc_app"
+ (defvar stupid-root "CHANGE THIS VARIABLE"
    "IMPORTANT - EDIT THIS!!!!"))
 (make-variable-buffer-local
  (defvar stupid-apk "/FtcRobotController/build/outputs/apk/FtcRobotController-debug.apk"
    "APK to install"))
 
-(setenv "ANDROID_HOME" "/home/jonathan/android/sdk")
+(setenv "ANDROID_HOME" "CHANGE THIS VARIABLE")
 
 (defun stupid-build ()
   (interactive)
