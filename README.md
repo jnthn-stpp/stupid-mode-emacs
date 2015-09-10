@@ -3,10 +3,12 @@ FIRST Tech Challenge - Turn emacs into an alternative to Android Studio for the 
 
 # Usage
 
-This mode adds three commands to emacs
+This mode adds three commands to emacs:
 
 C-c b (compile all of the code and build the apks)
+
 C-c l (load apk on to phone)
+
 C-c c (clear all apks and class files)
 
 # Name
@@ -20,6 +22,7 @@ Must have a Mac or Linux computer. (it might be possible to make it work on Wind
 # Setup
 
 Install the JDK ("sudo apt-get install default-jre default-jdk" on Linux with apt-get)
+
 Install the android SDK. On linux, this means downloading the standalone SDK tools and then editing your PATH variables to point to the tools and build-tools folders.
 
 From the android SDK menu, install Android 4.4.2 (API 19) and the 21.1.2 Android SDK build tools
